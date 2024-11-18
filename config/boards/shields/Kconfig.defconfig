@@ -1,7 +1,7 @@
-if SHIELD_VAD_LEFT
+if SHIELD_VAD_BOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "vad_board"
+    default "Vad Board"
 
 config ZMK_SPLIT_KEYBOARD_ROLE_CENTRAL
     default y
