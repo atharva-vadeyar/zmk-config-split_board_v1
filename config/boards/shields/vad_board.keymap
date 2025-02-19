@@ -34,7 +34,6 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |  N  | DWN |    -    | LFT  |  M   |  ,  |  .  |  /  |  FN  | WIN | LALT |
 
 
-
                         bindings = <
    &trans    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp SPACE                 &kp BSPC   &kp N7  &kp N9     &kp N9   &KP N0     &kp MINUS   &kp EQUAL  m1_d      
    &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp RCTRL                 &kp ENTER  &kp U   &kp I      &kp O    &kp P      &kp LBKT    &kp RBKT   m2_d
