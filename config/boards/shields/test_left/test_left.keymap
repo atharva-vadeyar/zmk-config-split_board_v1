@@ -35,10 +35,10 @@
 
 
                         bindings = <
-   &studio_unlock    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp SPACE                 &kp BSPC   &kp N7  &kp N9     &kp N9   &KP N0     &kp MINUS   &kp EQUAL  m1_d      
-   &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp RCTRL                 &kp ENTER  &kp U   &kp I      &kp O    &kp P      &kp LBKT    &kp RBKT   m2_d
-   &kp LCTRL &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp UP                    &kp RIGHT  &kp J   &kp K      &kp L    &kp SEMI   &kp SQT     &kp BSLH   m3_d
-   &kp LSHFT &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp DOWN                  &kp LEFT   &kp M   &kp COMMA  &kp DOT  &kp FSLH   &mo FN      &kp LGUI   &kp LALT
+   &studio_unlock    &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp SPACE 
+   &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp Y   &kp RCTRL        
+   &mo fn_layer &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp UP           
+   &kp LSHFT &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp DOWN         
                         >;
                 };
                 fn_layer {
@@ -49,10 +49,10 @@
 // |      |        |        |        |        |        |     |     |    -    |      |      |     |     |     |      |     |    |
 
                         bindings = <
-   &trans      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6       &kp F7   &kp F8   &kp F9   &kp F10   &kp F11   &kp F12   &kp PSCRN   m1_fn
-   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans       &trans   &trans   &trans   &trans    &trans    &trans    &trans      m2_fn
-   &kp LSHFT   &trans        &trans        &trans        &trans        &trans        &trans       &trans   &trans   &trans   &trans    &trans    &trans    &trans      m3_fn
-   &trans      &trans        &trans        &trans        &trans        &trans        &trans       &trans   &trans   &trans   &trans    &trans    &trans    &trans      &trans
+   &trans      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5        &kp F6     
+   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans     
+   &kp LSHFT   &trans        &trans        &trans        &trans        &trans        &trans     
+   &trans      &trans        &trans        &trans        &trans        &trans        &trans   
                         >;
                 };
         };
