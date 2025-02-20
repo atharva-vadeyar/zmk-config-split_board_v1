@@ -3,5 +3,4 @@ if SHIELD_TEST_LEFT
 config ZMK_KEYBOARD_NAME
     default "TestLeft"
 
-
 endif
