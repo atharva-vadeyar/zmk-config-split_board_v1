@@ -14,5 +14,14 @@
                         &kp GRAVE  &kp Z         &kp X         &kp C         &kp V   &kp B   &kp N   &kp DOWN
                         >;
                 };
+
+                fn_layer {
+                        bindings = <
+                        &trans     &kp F1        &kp F2        &kp F3        &kp F4  &kp F5  &kp F6     &T
+                        &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
+                        &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
+                        &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
+                        >;
+                }
         };
 };
