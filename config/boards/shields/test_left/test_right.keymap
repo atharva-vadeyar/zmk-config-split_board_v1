@@ -6,6 +6,14 @@
 #define m1_d &kp C_NEXT
 #define m2_d &kp C_PP
 #define m3_d &kp C_PREV
+
+#define m1_fn &kp C_VOL_UP
+#define m2_fn &kp C_MUTE
+#define m3_fn &kp C_VOL_DN
+
+
+// inv FSLH not working
+
 / {
         keymap {
                 compatible = "zmk,keymap";
@@ -16,6 +24,15 @@
                         &kp ENTER     &kp U       &kp I         &kp O         &kp P      &kp LBKT      &kp RBKT      m2_d
                         &kp RIGHT     &kp J       &kp K         &kp L         &kp SEMI   &kp SQT       &kp BSLH      m3_d
                         &kp LEFT      &kp M       &kp COMMA     &kp DOT       &kp FSLH   &trans        &kp LGUI      &kp LALT
+                        >;
+                };
+
+                fn_layer {
+                        bindings = <
+                        &kp F7   &kp F8   &kp F9   &kp F10   &kp F11   &kp F12   &kp PSCRN   m1_fn
+                        &trans   &trans   &trans   &trans    &trans    &trans    &trans      m2_fn
+                        &trans   &trans   &trans   &trans    &trans    &trans    &trans      m3_fn
+                        &trans   &trans   &trans   &trans    &trans    &trans    &trans      &trans
                         >;
                 };
         };
