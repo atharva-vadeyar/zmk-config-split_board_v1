@@ -10,8 +10,8 @@
                         bindings = <
                         &kp ESC    &kp N1        &kp N2        &kp N3        &kp N4  &kp N5  &kp N6  &kp SPACE
                         &kp TAB    &kp Q         &kp W         &kp E         &kp R   &kp T   &kp Y   &kp LCTRL
-                        &kp LSHFT  &kp A         &kp S         &kp D         &kp F   &kp G   &kp H   &kp UP
-                        &kp GRAVE  &kp Z         &kp X         &kp C         &kp V   &kp B   &kp N   &kp DOWN
+                        &kp BSLH   &kp A         &kp S         &kp D         &kp F   &kp G   &kp H   &kp LALT
+                        &kp GRAVE  &kp Z         &kp X         &kp C         &kp V   &kp B   &kp N   &kp LGUI
                         >;
                 };
 
