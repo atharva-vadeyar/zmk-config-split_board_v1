@@ -8,7 +8,7 @@
 
                 default_layer {
                         bindings = <
-                        &kp ESC    &kp N1        &kp N2        &kp N3        &kp N4  &kp N5  &kp N6  &kp LGUI
+                        &kp ESC    &kp N1        &kp N2        &kp N3        &kp N4  &kp N5  &kp N6  &kp FSLH
                         &kp TAB    &kp Q         &kp W         &kp E         &kp R   &kp T   &kp Y   &kp SPACE
                         &kp BSLH   &kp A         &kp S         &kp D         &kp F   &kp G   &kp H   &kp LALT
                         &kp LSHIFT &kp Z         &kp X         &kp C         &kp V   &kp B   &kp N   &kp LCTRL
@@ -17,10 +17,10 @@
 
                 fn_layer {
                         bindings = <
-                        &trans     &kp F1        &kp F2        &kp F3        &kp F4  &kp F5  &kp F6     &trans
+                        &trans     &kp F1        &kp F2        &kp F3        &kp F4   &kp F5   &kp F6   &trans
                         &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
                         &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
-                        &trans     &trans        &trans        &trans        &trans   &trans   &trans   &trans
+                        &kp CAPS   &trans        &trans        &trans        &trans   &trans   &trans   &trans
                         >;
                 };
         };

@@ -23,7 +23,7 @@
                         &mo 1         &kp N7      &kp N8        &kp N9        &kp N0     &kp MINUS     &kp EQUAL     m1_d
                         &kp BSPC      &kp U       &kp I         &kp O         &kp P      &kp LBKT      &kp RBKT      m2_d
                         &kp GRAVE     &kp J       &kp K         &kp L         &kp SEMI   &kp SQT       &kp UP        m3_d
-                        &kp ENTER     &kp M       &kp COMMA     &kp DOT       &kp FSLH   &kp LEFT      &kp DOWN      &kp RIGHT
+                        &kp ENTER     &kp M       &kp COMMA     &kp DOT       &kp LGUI   &kp LEFT      &kp DOWN      &kp RIGHT
                         >;
                 };
 
@@ -31,7 +31,7 @@
                         bindings = <
                         &trans   &kp F7   &kp F8   &kp F9    &kp F10   &kp F11   &kp F12     m1_fn
                         &kp DEL  &trans   &trans   &trans    &trans    &trans    &kp PSCRN   m2_fn
-                        &kp CAPS &trans   &trans   &trans    &trans    &trans    &trans      m3_fn
+                        &trans   &trans   &trans   &trans    &trans    &trans    &trans      m3_fn
                         &trans   &trans   &trans   &trans    &trans    &trans    &trans      &trans
                         >;
                 };
